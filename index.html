@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | 中尾 和博</title>
+  <meta name="description" content="ポートフォリオサイト - 作品・スキル・経歴をご紹介します">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="#hero" class="nav-logo">Portfolio</a>
+      <button class="nav-toggle" aria-label="メニューを開く">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Teaching Practices</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-title">中尾 和博</h1>
+        <p class="hero-subtitle">中学校社会科教師</p>
+        <p class="hero-desc">社会科の授業を通じて、生徒の思考力と判断力を育みます。</p>
+        <a href="#projects" class="btn btn-primary">授業実践を見る</a>
+      </div>
+      <div class="hero-visual"></div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              中学校で社会科を担当しています。生徒が社会的事象を多角的に考え、
+              自分の言葉で説明できるようになることを大切にしています。
+            </p>
+            <p>
+              授業実践や教材研究の成果を、このサイトで共有していきます。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <ul class="skills-list">
+          <li class="skill-item">ロイロ認定ティーチャー</li>
+          <li class="skill-item">シンキングツール・アドバイザーNEXT</li>
+          <li class="skill-item">Apple Teacher</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="section-title">Teaching Practices</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-image">画像</div>
+            <div class="project-body">
+              <h3>授業実践名 1</h3>
+              <p>単元・学年・授業の概要をここに書きます。使用したツールやねらいも書けると良いです。</p>
+              <a href="#" class="project-link" target="_blank" rel="noopener">詳細を見る →</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-image">画像</div>
+            <div class="project-body">
+              <h3>授業実践名 2</h3>
+              <p>授業の概要をここに書きます。</p>
+              <a href="#" class="project-link" target="_blank" rel="noopener">詳細を見る →</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-image">画像</div>
+            <div class="project-body">
+              <h3>授業実践名 3</h3>
+              <p>授業の概要をここに書きます。</p>
+              <a href="#" class="project-link" target="_blank" rel="noopener">詳細を見る →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p class="contact-text">お問い合わせは以下のフォームからお送りください。</p>
+        <div class="google-form-embed">
+          <!-- Googleフォームの「埋め込み」コードをここに貼り付けてください -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 中尾 和博. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
